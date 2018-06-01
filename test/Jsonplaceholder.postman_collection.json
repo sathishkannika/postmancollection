@@ -16,7 +16,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"tests[\"Status code is 200\"] = responseCode.code === 200;",
-							"tests[\"Response time is less than 1000ms\"] = responseTime < 1000;",
+							"tests[\"Response time is less than 5000ms\"] = responseTime < 5000;",
 							"tests[\"Body matches string\"] = responseBody.has(\"id labore ex et quam laborum\");"
 						]
 					}
