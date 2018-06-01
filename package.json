@@ -1,0 +1,16 @@
+{
+  "name": "jsonplaceholder",
+  "version": "1.0.0",
+  "description": "Project for storing Postman tests",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "api-tests-production": "newman run test/Jsonplaceholder.postman_collection.json"
+  },
+  "author": "sathish",
+  
+  "dependencies": {
+    "newman": "^3.9.4"
+  }
+}
