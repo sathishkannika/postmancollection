@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "api-tests-production": "newman run Jsonplaceholder.postman_collection.json --folder sathish --reporters cli,junit --reporter-junit-export newman.xml"
+    "api-tests-production": "newman run Jsonplaceholder.postman_collection.json "
   },
   "author": "sathish",
   
